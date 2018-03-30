@@ -1,9 +1,12 @@
 ---
 title: "Assignment PA1"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
+library(knitr)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
